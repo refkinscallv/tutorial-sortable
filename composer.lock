@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "58f961f9c1fae3334e1a2c7ec3200d95",
+    "packages": [
+        {
+            "name": "refkinscallv/fvss",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/refkinscallv/FVSS.git",
+                "reference": "be35545b88e94b1de99ba6baaf7269d43643b349"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/refkinscallv/FVSS/zipball/be35545b88e94b1de99ba6baaf7269d43643b349",
+                "reference": "be35545b88e94b1de99ba6baaf7269d43643b349",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CG\\FVSS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Refkinscallv",
+                    "email": "refkisncallv@gmail.com"
+                }
+            ],
+            "description": "PHP Form Validation Server Side",
+            "support": {
+                "issues": "https://github.com/refkinscallv/FVSS/issues",
+                "source": "https://github.com/refkinscallv/FVSS/tree/v1.1"
+            },
+            "time": "2024-04-12T08:55:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
